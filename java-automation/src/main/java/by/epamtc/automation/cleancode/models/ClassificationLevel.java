@@ -1,4 +1,4 @@
-package by.epamtc.automation.clean_code.models;
+package by.epamtc.automation.cleancode.models;
 
 public enum ClassificationLevel {
     UNCLASSIFIED, CONFIDENTIAL, SECRET, TOP_SECRET

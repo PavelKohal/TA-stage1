@@ -1,4 +1,4 @@
-package by.epamtc.automation.clean_code.planes;
+package by.epamtc.automation.cleancode.planes;
 
 import java.util.Objects;
 

@@ -1,6 +1,6 @@
-package by.epamtc.automation.clean_code.planes;
+package by.epamtc.automation.cleancode.planes;
 
-import by.epamtc.automation.clean_code.models.MilitaryType;
+import by.epamtc.automation.cleancode.models.MilitaryType;
 
 import java.util.Objects;
 

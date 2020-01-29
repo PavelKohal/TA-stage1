@@ -1,10 +1,10 @@
-package by.epamtc.automation.clean_code;
+package by.epamtc.automation.cleancode;
 
-import by.epamtc.automation.clean_code.models.MilitaryType;
-import by.epamtc.automation.clean_code.planes.ExperimentalPlane;
-import by.epamtc.automation.clean_code.planes.MilitaryPlane;
-import by.epamtc.automation.clean_code.planes.PassengerPlane;
-import by.epamtc.automation.clean_code.planes.Plane;
+import by.epamtc.automation.cleancode.models.MilitaryType;
+import by.epamtc.automation.cleancode.planes.ExperimentalPlane;
+import by.epamtc.automation.cleancode.planes.MilitaryPlane;
+import by.epamtc.automation.cleancode.planes.PassengerPlane;
+import by.epamtc.automation.cleancode.planes.Plane;
 
 import java.util.*;
 

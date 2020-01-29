@@ -1,7 +1,7 @@
-package by.epamtc.automation.clean_code.planes;
+package by.epamtc.automation.cleancode.planes;
 
-import by.epamtc.automation.clean_code.models.ClassificationLevel;
-import by.epamtc.automation.clean_code.models.ExperimentalTypes;
+import by.epamtc.automation.cleancode.models.ClassificationLevel;
+import by.epamtc.automation.cleancode.models.ExperimentalTypes;
 
 public class ExperimentalPlane extends Plane{
 

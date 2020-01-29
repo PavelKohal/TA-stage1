@@ -1,13 +1,13 @@
-package by.epamtc.automation.clean_code.test;
+package by.epamtc.automation.cleancode.test;
 
-import by.epamtc.automation.clean_code.Airport;
-import by.epamtc.automation.clean_code.models.ClassificationLevel;
-import by.epamtc.automation.clean_code.models.ExperimentalTypes;
-import by.epamtc.automation.clean_code.models.MilitaryType;
-import by.epamtc.automation.clean_code.planes.ExperimentalPlane;
-import by.epamtc.automation.clean_code.planes.MilitaryPlane;
-import by.epamtc.automation.clean_code.planes.PassengerPlane;
-import by.epamtc.automation.clean_code.planes.Plane;
+import by.epamtc.automation.cleancode.Airport;
+import by.epamtc.automation.cleancode.models.ClassificationLevel;
+import by.epamtc.automation.cleancode.models.ExperimentalTypes;
+import by.epamtc.automation.cleancode.models.MilitaryType;
+import by.epamtc.automation.cleancode.planes.ExperimentalPlane;
+import by.epamtc.automation.cleancode.planes.MilitaryPlane;
+import by.epamtc.automation.cleancode.planes.PassengerPlane;
+import by.epamtc.automation.cleancode.planes.Plane;
 import org.junit.Assert;
 import org.junit.Test;
 
