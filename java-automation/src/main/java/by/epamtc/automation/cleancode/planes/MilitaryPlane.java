@@ -22,7 +22,7 @@ public class MilitaryPlane extends Plane{
     public String toString() {
         return super.toString().replace("}",
                 ", type=" + type +
-                '}');
+                "}\n");
     }
 
     @Override

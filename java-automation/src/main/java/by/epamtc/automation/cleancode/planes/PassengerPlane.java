@@ -22,9 +22,9 @@ public class PassengerPlane extends Plane {
 
     @Override
     public String toString() {
-        return "PassengerPlane{" +
-                "passengersCapacity=" + passengersCapacity +
-                '}';
+        return super.toString().replace("}",
+                ", passengersCapacity=" + passengersCapacity +
+                        "}\n");
     }
 
     @Override
