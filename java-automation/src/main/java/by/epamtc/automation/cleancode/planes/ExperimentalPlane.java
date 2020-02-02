@@ -3,6 +3,8 @@ package by.epamtc.automation.cleancode.planes;
 import by.epamtc.automation.cleancode.models.ClassificationLevel;
 import by.epamtc.automation.cleancode.models.ExperimentalTypes;
 
+import java.util.Objects;
+
 public class ExperimentalPlane extends Plane{
 
     private ExperimentalTypes type;
@@ -15,22 +17,27 @@ public class ExperimentalPlane extends Plane{
         this.classificationLevel = classificationLevel;
     }
 
-    public ClassificationLevel getClassificationLevel(){
-        return classificationLevel;
+    public ExperimentalTypes getType() {
+        return type;
     }
 
-    public void setClassificationLevel(ClassificationLevel classificationLevel){
-        this.classificationLevel = classificationLevel;
+    public ClassificationLevel getClassificationLevel() {
+        return classificationLevel;
     }
 
     @Override
     public boolean equals(Object o) {
-        return super.equals(o);
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        ExperimentalPlane that = (ExperimentalPlane) o;
+        return type == that.type &&
+                classificationLevel == that.classificationLevel;
     }
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return Objects.hash(super.hashCode(), type, classificationLevel);
     }
 
     @Override
